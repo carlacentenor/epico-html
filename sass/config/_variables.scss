@@ -1,0 +1,109 @@
+// Colors NGR
+$rojo-ngr: #AC162C;
+$naranja-ngr:#FF4338;
+$melon-ngr:#FF8300;
+$gris-ngr:#978B82;
+// Colors Complementary
+$dark-melon:#C55400;
+$dark-rojo:#750003;
+$success-verde:#16ab95;
+$error-rojo:#EB0C0C;
+// Colors Gray
+$negro-90:#1A1A1A;
+$negro-80:#333333;
+$negro-70:#4D4D4D;
+$negro-50:#808080;
+$negro-30:#B3B3B3;
+$negro-20:#E5E5E5;
+$negro-2:#FAFAFA;
+// Colors Bembos
+$blue-bb:#002395;
+$red-bb:#F0000F;
+$yellow-bb:#FFB500;
+$light-blue-bb:#334FAA;
+$light-red-bb:#F3333F;
+$light-yellow-bb:#FFC433;
+$dark-blue-bb:#001C77;
+$dark-red-bb:#C0000C;
+$dark-yellow-bb:#CC9100;
+// Colors Don Belisario
+$green-db:#b2bb1e;
+$red-db:#e31937;
+$black-db:#000000;
+$light-green-db:#c1c94b;
+$light-red-db:#e9475f;
+$dark-green-db:#8e9618;
+$dark-red-db:#b6142c;
+// Colors CW
+$green-cw:#25b34b;
+$red-cw:#ed1f20;
+$black-cw:#231f20;
+$yellow-cw:#f8ad15;
+$light-green-cw:#51c26f;
+$light-red-cw:#f14c4d;
+$light-black-cw:#4f4c4d;
+$dark-green-cw:#8e9618;
+$dark-red-cw:#b6142c;
+$dark-black-cw:#1c191a;
+// Colors DD
+$pink-dd:#ee4699;
+$orange-dd:#f5821f;
+$brown-dd:#663600;
+$skyblue-dd:#7eb0cc;
+$yellow-dd:#ffde9a;
+$light-pink-dd:#f16bad;
+$light-orange-dd:#f79b4c;
+$light-brown-dd:#855e33;
+$dark-pink-dd:#be387a;
+$dark-orange-dd:#c46819;
+$dark-brown-dd:#522b00;
+// Colors PJ
+$red-d-pj:#bb141a;
+$green-pj:#009774;
+$grey-pj:#a39d9b;
+$red-l-pj:#f20030;
+$light-red-d-pj:#c94348;
+$light-green-pj:#33ac90;
+$light-grey-pj:#b5b1af;
+$dark-red-d-pj:#961015;
+$dark-green-pj:#00795d;
+$dark-grey-pj:#827e7c;
+// Colors PP
+$orange-pp:#f58426;
+$red-pp:#c41230;
+$blue-pp:#003a63;
+$light-orange-pp:#f79d51;
+$light-red-pp:#d04159;
+$dark-orange-pp:#c46a1e;
+$dark-red-pp:#9d0e26;
+// Fonts
+@font-face {
+    font-family: "omnes-bold";
+    src: url('assets/fonts/Omnes-Bold.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "omnes-light";
+    src: url('assets/fonts/Omnes-Light.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "omnes-regular";
+    src: url('assets/fonts/Omnes_Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "omnes-medium";
+    src: url('assets/fonts/Omnes-Medium.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "omnes-semibold";
+    src: url('assets/fonts/omnes-semibold-webfont.ttf') format("truetype");
+}
+
+$omnes-bold: omnes-bold;
+$omnes-light: omnes-light;
+$omnes-regular:omnes-regular;
+$omnes-medium:omnes-medium;
+$omnes-semibold:omnes-semibold;

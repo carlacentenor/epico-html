@@ -1,0 +1,19 @@
+.bg_white {
+    background-color: white;
+}
+
+.bg-dark-red {
+    background-color: $rojo-ngr;
+}
+
+.bg-melon {
+    background-color: $melon-ngr;
+}
+
+.border-melon {
+    border: 1px solid $melon-ngr;
+}
+
+.bg_transparent {
+    background-color: transparent !important;
+}

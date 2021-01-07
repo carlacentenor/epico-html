@@ -1,0 +1,125 @@
+.table-normativa {
+    overflow-x: scroll;
+    overflow-y: auto;
+    margin-top: 2em;
+    @media screen and (min-width: 768px) {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: grid;
+        align-items: center;
+        margin-top: 0;
+    }
+}
+
+.t_header {
+    border: 1px solid $negro-30;
+}
+
+.headcol {
+    background-color: white;
+    @media screen and (min-width: 768px) {
+        background-color: #ebebeb;
+    }
+}
+
+td,
+th {
+    padding: 5px 10px;
+}
+
+.t_text {
+    font-weight: 400;
+    text-align: center;
+}
+
+.t_name-bold {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    tr {
+        background: white;
+    }
+    .hover-row:hover {
+        box-shadow: 0px 3px 8px #CCCCCC;
+        border-bottom: 2px solid $negro-30
+    }
+}
+
+.t_team {
+    width: 150px;
+}
+
+.t_ranking {
+    width: 50px;
+}
+
+.t_cell {
+    width: 100px;
+}
+
+.cargo_mobile {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+}
+
+.hid-tablet {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.block_mobile {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.cell-width--normativa {
+    width: 300px
+}
+
+.hidden-mobile {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+}
+
+.visibility-desktop {
+    visibility: hidden;
+    @media screen and (min-width: 768px) {
+        visibility: visible;
+    }
+}
+
+.visibility-mobile {
+    visibility: visible;
+    @media screen and (min-width: 768px) {
+        visibility: hidden;
+    }
+}
+
+.table-reports {
+    overflow-x: scroll;
+    overflow-y: auto;
+    @media screen and (min-width: 768px) {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: grid;
+        align-items: center;
+    }
+}
+
+.table-reports--mobile {
+    margin-top: 1em;
+    box-shadow: 0px 3px 8px #CCCCCC;
+    padding: .8em;
+    table {
+        width: 100%;
+    }
+}

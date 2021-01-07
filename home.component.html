@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header -->
+<div class="h_menu--desktop--finan text-center ">
+    <div class="text-left" (click)="loginService.logout()">
+        <img class="logo--menu pl-2 cursor" src="assets/images/logos-epico-08.png" alt="logo">
+    </div>
+
+    <div class="icon_menu--desktop option--menu" (click)="reloadPage()">
+        <i class="demo-icon icon-home font-icon-menu"></i>
+        <span>Inicio</span>
+    </div>
+
+    <div class="border-left ">
+        <img class="h_menu--photo cursor" src="assets/images/man-avatar.svg" alt="photo " (click)="setShowMenu()">
+    </div>
+
+    <!-- Menu Navbar -->
+    <!--estilo hide-menu para ocultar -->
+    <!-- <div *ngIf="showMenu">
+        <div class="c_cards--menu p-1 bg_white hide-mobile">
+            <p>Bienvenido, <span class="f-rdark f-bold"> {{loginService.usuario.user.shortName}}</span></p>
+            <hr>
+            <ul>
+                <li *ngFor="let tema of homeFinancieroDto.temaList" class="cursor" (click)="verReporte(tema)">{{tema.descripcion}}</li>
+                <li class="cursor" (click)="loginService.logout()">Cerrar Sesión</li>
+            </ul>
+        </div>
+    </div> -->
+</div>
+
+<!-- Content -->
+<div class="p-1  grid-home--finan">
+    <!-- Profile -->
+    <div class="  ">
+        <div class=" c_cards p-1 ">
+            <div>
+                <p class="f-rdark f-bold cursor ">
+                    <span class="pr-1 ">
+                        <i class="demo-icon icon-person f-rdark font-icon-menu "></i>
+                    </span> Mi perfil
+                </p>
+            </div>
+
+            <div class=" cursor h-asistent--grid--finan c_margin-bot--1 ">
+                <div class="text-center ">
+                    <img class="h_profile--photo " src="assets/images/man-avatar.svg" alt="photo ">
+                </div>
+
+                <div>
+                    <p class="f_heading--3 c_margin--0 ">{{loginService.usuario.user.fullName}}</p>
+                    <p class="c_margin--0 f_heading--5 ">{{loginService.usuario.user.descar}}</p>
+                    <p class="c_margin-bot--0 f_heading--5 ">"Pasión por servir"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reports -->
+    <div class="align-box-report-finan">
+        <div class="c_cards pt-1 pl-1 pr-1 box-h-max">
+            <div class="h_section--head ">
+                <div class=" text-center ">
+                    <i class="demo-icon icon-trending_up font-icon-menu f-rdark icon-brands-home"></i>
+                </div>
+                <div>
+                    <p class="f-rdark f-bold title-section-home">Reportes</p>
+                </div>
+            </div>
+
+            <!-- Buttons Temas -->
+            <div *ngFor="let tema of homeFinancieroDto.temaList">
+                <div class="grid-button-report p-1 cursor" (click)="verReporte(tema)">
+                    <div><img class="img-reports-fin" src="assets/images/seo-report.svg" alt="reports"></div>
+                    <p class="p-2 f_heading--3">{{tema.descripcion}}</p>
+                </div>
+              
+                <div class="grid-button-report p-1 cursor" (click)="verReporte(tema)">
+                    <div><img class="img-reports-fin" src="assets/images/seo-report.svg" alt="reports"></div>
+                    <p class="p-2 f_heading--3">{{tema.descripcion}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notifications -->
+    <div class="align-box-notifi-finan">
+        <div class="  c_cards pr-1 pt-1 box-h-max mb-mobile">
+            <div class="h_notification--head ">
+                <div class="h_notification--icon text-center ">
+                    <i class="demo-icon icon-bell f-rdark font-icon-menu icon-brands-home"></i>
+                    <!-- <div class="h_notifications--number "><span>1</span></div> -->
+                </div>
+                <div>
+                    <p class="f-rdark f-bold title-section-home">Notificaciones</p>
+                </div>
+                <div class="cursor"><img src="assets/icons/sync.svg " alt="sync" (click)="reloadNotificaciones()">
+                </div>
+            </div>
+
+            <div class="c_cards_notifications scroll-style">
+                <div *ngFor="let notificacion of homeFinancieroDto.ultimosComentariosList" >
+                    <div class="h_notifications--box ">
+                        <div>
+                            <img src="assets/icons/calendar_today.svg " alt="calendar-today ">
+                        </div>
+                        <div class="p-1 ">
+                            <p class="c_margin--0 f-black30 f_heading--5 ">{{notificacion.antiguedad}}</p>
+                            <p class="c_margin--0 text-justify f_heading--5 ">{{notificacion.contenido}}</p>
+                        </div>
+                    </div>
+                    <div class="h_notifications--box ">
+                        <div>
+                            <img src="assets/icons/calendar_today.svg " alt="calendar-today ">
+                        </div>
+                        <div class="p-1 ">
+                            <p class="c_margin--0 f-black30 f_heading--5 ">{{notificacion.antiguedad}}</p>
+                            <p class="c_margin--0 text-justify f_heading--5 ">{{notificacion.contenido}}</p>
+                        </div>
+                    </div>
+                    <div class="h_notifications--box ">
+                        <div>
+                            <img src="assets/icons/calendar_today.svg " alt="calendar-today ">
+                        </div>
+                        <div class="p-1 ">
+                            <p class="c_margin--0 f-black30 f_heading--5 ">{{notificacion.antiguedad}}</p>
+                            <p class="c_margin--0 text-justify f_heading--5 ">{{notificacion.contenido}}</p>
+                        </div>
+                    </div>
+                    <div class="h_notifications--box ">
+                        <div>
+                            <img src="assets/icons/calendar_today.svg " alt="calendar-today ">
+                        </div>
+                        <div class="p-1 ">
+                            <p class="c_margin--0 f-black30 f_heading--5 ">{{notificacion.antiguedad}}</p>
+                            <p class="c_margin--0 text-justify f_heading--5 ">{{notificacion.contenido}}</p>
+                        </div>
+                    </div>
+                    <div class="h_notifications--box ">
+                        <div>
+                            <img src="assets/icons/calendar_today.svg " alt="calendar-today ">
+                        </div>
+                        <div class="p-1 ">
+                            <p class="c_margin--0 f-black30 f_heading--5 ">{{notificacion.antiguedad}}</p>
+                            <p class="c_margin--0 text-justify f_heading--5 ">{{notificacion.contenido}}</p>
+                        </div>
+                    </div>
+                    <div class="h_notifications--box ">
+                        <div>
+                            <img src="assets/icons/calendar_today.svg " alt="calendar-today ">
+                        </div>
+                        <div class="p-1 ">
+                            <p class="c_margin--0 f-black30 f_heading--5 ">{{notificacion.antiguedad}}</p>
+                            <p class="c_margin--0 text-justify f_heading--5 ">{{notificacion.contenido}}</p>
+                        </div>
+                    </div>
+                    <div class="h_notifications--box ">
+                        <div>
+                            <img src="assets/icons/calendar_today.svg " alt="calendar-today ">
+                        </div>
+                        <div class="p-1 ">
+                            <p class="c_margin--0 f-black30 f_heading--5 ">{{notificacion.antiguedad}}</p>
+                            <p class="c_margin--0 text-justify f_heading--5 ">{{notificacion.contenido}}</p>
+                        </div>
+                    </div>
+                    <div class="h_notifications--box ">
+                        <div>
+                            <img src="assets/icons/calendar_today.svg " alt="calendar-today ">
+                        </div>
+                        <div class="p-1 ">
+                            <p class="c_margin--0 f-black30 f_heading--5 ">{{notificacion.antiguedad}}</p>
+                            <p class="c_margin--0 text-justify f_heading--5 ">{{notificacion.contenido}}</p>
+                        </div>
+                    </div>
+                    
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar Mobile -->
+<div class="h_menu text-center ">
+    <div class="cursor" (click)="reloadPage()">
+        <i class="brand-icon demo-icon icon-home font-icon-menu active_option--menu"></i>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div>
+        <img class="h_menu--photo cursor" src="assets/images/man-avatar.svg" alt="photo " (click)="setShowMenu()">
+    </div>
+</div>
+
+
+<!-- Menú navbar
+<div *ngIf="showMenu">
+    <div class="c_cards--menu_mobile p-1 bg_white ">
+        <p>Bienvenido, <span class="f-rdark f-bold"> {{loginService.usuario.user.shortName}}</span></p>
+        <hr>
+        <ul>
+            <li *ngFor="let tema of homeFinancieroDto.temaList" class="cursor" (click)="verReporte(tema)">{{tema.descripcion}}</li>
+            <li class="cursor" (click)="loginService.logout()">Cerrar Sesión</li>
+        </ul>
+    </div>
+</div> -->
+
+</body>
+</html>
+

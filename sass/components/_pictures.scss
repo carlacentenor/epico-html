@@ -1,0 +1,310 @@
+.c_pictures--user {
+    width: 84px;
+    height: 84px;
+    border-radius: 3px;
+}
+
+.h_profile--photo {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    @media screen and (min-width: 768px) {
+        width: 108px;
+        height: 108px;
+    }
+}
+
+.brand-home-s {
+    width: 65px;
+}
+
+.h_profile--icons-select {
+    width: 30px;
+    height: 30px;
+}
+
+.b_icons-profile {
+    width: 32px;
+    height: 32px;
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.h_notification--icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.h_notifications--box img {
+    width: 24px;
+    height: 24px;
+}
+
+.h_menu--photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    @media screen and (min-width: 768px) {
+        width: 44px;
+        height: 44px;
+    }
+}
+
+.comming-soon--section img {
+    width: 150px;
+}
+
+.logo-info {
+    width: 225px;
+}
+
+// Menu desktop
+.icon_menu--desktop {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 24px;
+        height: 24px;
+    }
+    span {
+        position: relative;
+        top: 3px;
+        left: 4px
+    }
+}
+
+// Award
+.award-mobile {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.award-desktop {
+    display: none;
+    @media screen and (min-width: 768px) {
+        padding-bottom: 10px;
+        display: block;
+    }
+}
+
+// Iconos home
+.p-desktop {
+    @media screen and (min-width: 1024px) {
+        padding-top: 2em;
+    }
+}
+
+.pos_desktop {
+    @media screen and (min-width: 1024px) {
+        padding-top: 18px;
+    }
+}
+
+.admin-icon-desktop {
+    @media screen and (min-width: 768px) {
+        padding-top: 1em;
+    }
+}
+
+// Evaluations
+.e_icons {
+    width: 106px;
+    height: 103px;
+    @media screen and (min-width: 768px) {
+        width: 230px;
+        height: 200px;
+    }
+}
+
+.team_grid {
+    i {
+        position: relative;
+        top: 7px;
+        left: 7px;
+    }
+    img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        @media screen and (min-width: 768px) {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+.team_grid--person {
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        @media screen and (min-width: 768px) {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+.photo--3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    @media screen and (min-width: 768px) {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.photo--4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.photo--team {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    @media screen and (min-width: 768px) {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.img-radius {
+    border-radius: 50%;
+}
+
+.photo-edit-profile {
+    width: 60px;
+    height: 60px;
+    @media screen and (min-width: 768px) {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+// Overlay
+.img__wrap {
+    position: relative;
+    height: 180px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.img__description_layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(34, 35, 37, 0.6);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    transition: opacity .2s, visibility .2s;
+    border-radius: 50%;
+}
+
+.img__wrap:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+}
+
+.img__description {
+    transition: .2s;
+    transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+    transform: translateY(0);
+}
+
+.position-icon {
+    position: relative;
+    top: 5px;
+    padding-right: 5px;
+}
+
+.photo--star-team {
+    width: 80px;
+    height: 80px;
+}
+
+.img-photo-permis {
+    width: 40px;
+    height: 40px;
+    @media screen and (min-width: 768px) {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.logo-size {
+    width: 115px;
+    @media screen and (min-width: 768px) {
+        width: 180px;
+    }
+}
+
+.icon-size {
+    width: 80px;
+    @media screen and (min-width: 768px) {
+        width: 120px;
+    }
+}
+
+.brands-size {
+    width: 45%;
+    @media screen and (min-width: 768px) {
+        padding: 1em;
+    }
+}
+
+.e_icons-taste {
+    width: 60px;
+    @media screen and (min-width: 768px) {
+        width: 130px;
+    }
+}
+
+.img-reports-fin {
+    width: 70px;
+}
+
+.icon-download {
+    width: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.icon-comment {
+    width: 20px;
+    position: relative;
+    padding-left: 1em;
+}
+
+.icon-add-comment {
+    border: 1.5px solid $negro-70;
+    border-radius: 5px;
+    margin-right: .2em;
+}
+
+.icon-comment--close {
+    width: 13px;
+    position: relative;
+    padding-left: 1em;
+    padding-top: 4px;
+}

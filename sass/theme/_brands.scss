@@ -1,0 +1,426 @@
+// BB
+// Navbar 
+.brands_BB {
+    background-color: $blue-bb;
+    color: white;
+    .option--menu {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            color: $yellow-bb;
+            border-bottom: 4px solid $yellow-bb;
+        }
+    }
+    .h_menu--box-points {
+        border-radius: 3px;
+        background-color: white;
+        color: $blue-bb;
+        padding: 0 .5em;
+    }
+    .brand-icon {
+        color: white;
+    }
+    .active_option--menu {
+        color: $yellow-bb;
+        border-bottom: 3px solid $yellow-bb;
+        padding-bottom: 8.5px;
+    }
+}
+
+// Home -BB
+.home-BB {
+    .title-section-home {
+        color: $blue-bb;
+    }
+    .icon-brands-home {
+        color: $blue-bb;
+    }
+    .b_section-evaluation {
+        background-color: $red-bb;
+        &:hover {
+            background-color: $light-red-bb;
+        }
+        &:active {
+            background-color: $dark-red-bb;
+        }
+    }
+    .b_section-report {
+        background-color: $yellow-bb;
+        &:hover {
+            background-color: $light-yellow-bb;
+        }
+        &:active {
+            background-color: $dark-yellow-bb;
+        }
+    }
+    .h_notifications--number {
+        background-color: $yellow-bb;
+    }
+    .but-option--active {
+        background-color: $blue-bb;
+        color: white;
+    }
+    .but-option--border-right {
+        border: 1px solid $blue-bb;
+        color: $blue-bb;
+    }
+    .but-option--border-left {
+        border: 1px solid $blue-bb;
+    }
+}
+
+// Chinawok
+.brands_CW {
+    background-color: $red-cw;
+    color: white;
+    .option--menu {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            color: $black-cw;
+            border-bottom: 4px solid $black-cw;
+        }
+    }
+    .h_menu--box-points {
+        border-radius: 3px;
+        background-color: white;
+        color: $red-cw;
+        padding: 0 .5em;
+    }
+    .brand-icon {
+        color: white;
+    }
+    .active_option--menu {
+        color: $black-cw;
+        border-bottom: 3px solid $black-cw;
+        padding-bottom: 8.5px;
+    }
+}
+
+// Home -CW
+.home-CW {
+    .title-section-home {
+        color: $red-cw;
+    }
+    .icon-brands-home {
+        color: $red-cw;
+    }
+    .b_section-evaluation {
+        background-color: $green-cw;
+        &:hover {
+            background-color: $light-green-cw;
+        }
+        &:active {
+            background-color: $dark-green-cw;
+        }
+    }
+    .b_section-report {
+        background-color: $yellow-cw;
+        &:hover {
+            background-color: $yellow-cw;
+        }
+        &:active {
+            background-color: $yellow-cw;
+        }
+    }
+    .h_notifications--number {
+        background-color: $green-cw;
+    }
+    .but-option--active {
+        background-color: $red-cw;
+        color: white;
+    }
+    .but-option--border-right {
+        border: 1px solid $red-cw;
+        color: $red-cw;
+    }
+    .but-option--border-left {
+        border: 1px solid $red-cw;
+    }
+}
+
+// DOn Belisario
+.brands_DB {
+    background-color: $red-db;
+    color: $black-db;
+    .option--menu {
+        text-decoration: none;
+        color: $black-db;
+        cursor: pointer;
+        &:hover {
+            color: white;
+            border-bottom: 4px solid white;
+        }
+    }
+    .h_menu--box-points {
+        border-radius: 3px;
+        background-color: $black-db;
+        color: white;
+        padding: 0 .5em;
+    }
+    .brand-icon {
+        color: $black-db;
+    }
+    .active_option--menu {
+        color: white;
+        border-bottom: 3px solid white;
+        padding-bottom: 8.5px;
+    }
+}
+
+// Home -DB
+.home-DB {
+    .title-section-home {
+        color: $red-db;
+    }
+    .icon-brands-home {
+        color: $red-db;
+    }
+    .b_section-evaluation {
+        background-color: $black-db;
+        &:hover {
+            background-color: $black-db;
+        }
+        &:active {
+            background-color: $black-db;
+        }
+    }
+    .b_section-report {
+        background-color: $green-db;
+        &:hover {
+            background-color: $light-green-db;
+        }
+        &:active {
+            background-color: $dark-green-db;
+        }
+    }
+    .h_notifications--number {
+        background-color: $green-db;
+    }
+    .but-option--active {
+        background-color: $red-db;
+        color: white;
+    }
+    .but-option--border-right {
+        border: 1px solid $red-db;
+        color: $red-db;
+    }
+    .but-option--border-left {
+        border: 1px solid $red-db;
+    }
+}
+
+// Dunnkin Donuts
+.brands_DD {
+    background-color: $orange-dd;
+    color: $yellow-dd;
+    .option--menu {
+        text-decoration: none;
+        color: $yellow-dd;
+        cursor: pointer;
+        &:hover {
+            color: white;
+            border-bottom: 4px solid white;
+        }
+    }
+    .h_menu--box-points {
+        border-radius: 3px;
+        background-color: $yellow-dd;
+        color: $orange-dd;
+        padding: 0 .5em;
+    }
+    .brand-icon {
+        color: $yellow-dd;
+    }
+    .active_option--menu {
+        color: white;
+        border-bottom: 3px solid white;
+        padding-bottom: 8.5px;
+    }
+}
+
+// Home -DD
+.home-DD {
+    .title-section-home {
+        color: $orange-dd;
+    }
+    .icon-brands-home {
+        color: $orange-dd;
+    }
+    .b_section-evaluation {
+        background-color: $pink-dd;
+        &:hover {
+            background-color: $light-pink-dd;
+        }
+        &:active {
+            background-color: $dark-pink-dd;
+        }
+    }
+    .b_section-report {
+        background-color: $skyblue-dd;
+        &:hover {
+            background-color: $skyblue-dd;
+        }
+        &:active {
+            background-color: $skyblue-dd;
+        }
+    }
+    .h_notifications--number {
+        background-color: $pink-dd;
+    }
+    .but-option--active {
+        background-color: $orange-dd;
+        color: white;
+    }
+    .but-option--border-right {
+        border: 1px solid $orange-dd;
+        color: $orange-dd;
+    }
+    .but-option--border-left {
+        border: 1px solid $orange-dd;
+    }
+}
+
+// Papa Johns
+.brands_PJ {
+    background-color: $red-d-pj;
+    color: white;
+    .option--menu {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            color: white;
+            border-bottom: 4px solid white;
+        }
+    }
+    .h_menu--box-points {
+        border-radius: 3px;
+        background-color: white;
+        color: $red-d-pj;
+        padding: 0 .5em;
+    }
+    .brand-icon {
+        color: white;
+    }
+    .active_option--menu {
+        color: white;
+        border-bottom: 3px solid white;
+        padding-bottom: 8.5px;
+    }
+}
+
+// Home -PJ
+.home-PJ {
+    .title-section-home {
+        color: $red-d-pj;
+    }
+    .icon-brands-home {
+        color: $red-d-pj;
+    }
+    .b_section-evaluation {
+        background-color: $red-d-pj;
+        &:hover {
+            background-color: $light-red-d-pj;
+        }
+        &:active {
+            background-color: $dark-red-d-pj;
+        }
+    }
+    .b_section-report {
+        background-color: $green-pj;
+        &:hover {
+            background-color: $light-green-pj;
+        }
+        &:active {
+            background-color: $dark-green-pj;
+        }
+    }
+    .h_notifications--number {
+        background-color: $green-pj;
+    }
+    .but-option--active {
+        background-color: $red-d-pj;
+        color: white;
+    }
+    .but-option--border-right {
+        border: 1px solid $red-d-pj;
+        color: $red-d-pj;
+    }
+    .but-option--border-left {
+        border: 1px solid $red-d-pj;
+    }
+}
+
+// Popeyes
+.brands_PP {
+    background-color: $orange-pp;
+    color: white;
+    .option--menu {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            color: $red-pp;
+            border-bottom: 4px solid $red-pp;
+        }
+    }
+    .h_menu--box-points {
+        border-radius: 3px;
+        background-color: white;
+        color: $orange-pp;
+        padding: 0 .5em;
+    }
+    .brand-icon {
+        color: white;
+    }
+    .active_option--menu {
+        color: $red-pp;
+        border-bottom: 3px solid $red-pp;
+        padding-bottom: 8.5px;
+    }
+}
+
+// Home -PP
+.home-PP {
+    .title-section-home {
+        color: $orange-pp;
+    }
+    .icon-brands-home {
+        color: $orange-pp;
+    }
+    .b_section-evaluation {
+        background-color: $red-pp;
+        &:hover {
+            background-color: $light-red-pp;
+        }
+        &:active {
+            background-color: $dark-red-pp;
+        }
+    }
+    .b_section-report {
+        background-color: $blue-pp;
+        &:hover {
+            background-color: $blue-pp;
+        }
+        &:active {
+            background-color: $blue-pp;
+        }
+    }
+    .h_notifications--number {
+        background-color: $red-pp;
+    }
+    .but-option--active {
+        background-color: $red-pp;
+        color: white;
+    }
+    .but-option--border-right {
+        border: 1px solid $red-pp;
+        color: $red-pp;
+    }
+    .but-option--border-left {
+        border: 1px solid $red-pp;
+    }
+}

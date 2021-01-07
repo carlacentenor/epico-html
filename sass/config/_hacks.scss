@@ -1,0 +1,22 @@
+    // .mat-form-field-label-wrapper {
+    //     display: none;
+    // }
+    // .mat-form-field.mat-focused.mat-primary .mat-select-arrow {
+    //     color: $negro-30;
+    // }
+    // .mat-form-field.mat-focused .mat-form-field-ripple {
+    //     background-color: $negro-30;
+    // }
+    // .mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+    //     color: black;
+    // }
+    // .grid-datepicker--filter {}
+    .hide-event {
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+    
+    .hide-menu {
+        display: none !important;
+    }

@@ -1,0 +1,196 @@
+.c_input {
+    height: 48px;
+    width: 242px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .input_login {
+        border: none;
+        border: 1px solid $negro-30;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: $negro-30;
+        font-size: 14px;
+        height: 46px;
+        width: 242px;
+        padding-left: 12px;
+        &:focus {
+            outline: none;
+            // box-shadow: 0px 4px 16px $negro-20;
+            // border: 1px solid $negro-20;
+        }
+        &::placeholder {
+            color: $negro-30;
+            font-size: 14px;
+            font-family: $omnes-regular;
+        }
+    }
+    .c_icon--visibility {
+        position: absolute;
+        right: 12px;
+    }
+}
+
+.input-g {
+    border: none;
+    font-size: 16px;
+    font-family: $omnes-regular;
+    color: $negro-50;
+    width: 100%;
+    border: 1px solid $negro-30;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: .5em 0px .5em 5px;
+    &:focus {
+        outline: none;
+    }
+    @media screen and (min-width: 768px) {
+        width: 75%;
+    }
+}
+
+.l_form--input-full {
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+
+.l_form-control-input {
+    display: grid;
+    grid-template-columns: 48px 242px;
+    align-items: center;
+    justify-content: center;
+}
+
+.l_input--icon {
+    text-align: center;
+    border-top: 1px solid $negro-30;
+    border-bottom: 1px solid $negro-30;
+    border-left: 1px solid $negro-30;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.efect:focus-within {
+    background-color: white;
+    box-shadow: 0px 2px 4px #E5E5E5;
+    border-radius: 3px;
+}
+
+.l_input--icon img {
+    width: 20px;
+    height: 20px;
+}
+
+// Sabor
+select {
+    padding: 10px;
+    border: none;
+    border: 1px solid $negro-30;
+    background-color: transparent;
+    border-radius: 8px;
+    color: $negro-30;
+    width: 100%;
+    &:focus {
+        outline: none;
+    }
+}
+
+.edit-text {
+    border-radius: 8px;
+    border: 1.2px solid $negro-30;
+    padding: .5em;
+    font-family: $omnes-regular;
+}
+
+.edit-pass {
+    border-radius: 8px !important;
+    border: 1.2px solid $negro-30 !important;
+    padding: 0.8em !important;
+    width: 90% !important;
+    &:focus {
+        outline: none;
+    }
+    &::placeholder {
+        color: $negro-30;
+        font-family: $omnes-regular;
+    }
+}
+
+.input-edit {
+    border: none;
+    font-size: 16px;
+    font-family: $omnes-regular;
+    color: $negro-50;
+    width: 100%;
+    padding-right: 1em;
+    &:focus {
+        outline: none;
+    }
+}
+
+.input-add {
+    border: none;
+    font-size: 16px;
+    font-family: $omnes-regular;
+    color: $negro-50;
+    width: 75%;
+    border: 1px solid $negro-30;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: .5em 0px .5em 5px;
+    &:focus {
+        outline: none;
+    }
+    @media screen and (min-width: 768px) {
+        width: 100%;
+    }
+}
+
+.input-w {
+    width: 25%;
+}
+
+.add-notes-coffee {
+    width: 100%;
+    border: 1px solid $negro-30;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: $omnes-regular;
+    resize: none;
+    &:focus {
+        outline: none;
+    }
+    &::placeholder {
+        padding-left: 10px;
+    }
+}
+
+.date-pick {
+    background: url(assets/icons/calendar_today.svg) 97% 50% no-repeat !important;
+}
+
+.search-icon-input {
+    background: url(assets/icons/search.svg) white 97% 50% no-repeat;
+}
+
+.line-sep {
+    height: 1px;
+    background: #EBEBEB;
+}
+
+.input_datepicker--filter {
+    border: none;
+    font-size: 16px;
+    font-family: $omnes-regular;
+    color: $negro-50;
+    width: 80%;
+    border: 1px solid $negro-30;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: .5em 0px .5em 5px;
+}

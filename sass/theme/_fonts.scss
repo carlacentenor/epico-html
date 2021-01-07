@@ -1,0 +1,235 @@
+.f_heading--1 {
+    font-family: $omnes-regular;
+    font-size: 2em;
+}
+
+.f_heading--2 {
+    font-family: $omnes-medium;
+    font-size: 1.5em;
+}
+
+.f_heading--3 {
+    font-family: $omnes-semibold;
+    font-size: 1em;
+}
+
+.f_heading--3-05 {
+    font-family: $omnes-semibold;
+    font-size: 14px;
+}
+
+.f_heading--4 {
+    font-family: $omnes-bold;
+    font-size: 0.875em;
+}
+
+.f_heading--5 {
+    font-family: $omnes-regular;
+    font-size: 14px;
+}
+
+.f_heading--6 {
+    font-family: $omnes-regular;
+    font-size: 24px;
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+.f_heading--7 {
+    font-family: $omnes-semibold;
+    font-size: 24px;
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+.f_heading--8 {
+    font-family: $omnes-semibold;
+    font-size: 16px;
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+.f_heading--9 {
+    font-family: $omnes-semibold;
+    font-size: 24px;
+}
+
+.f_number {
+    font-size: 32px
+}
+
+.f-body {
+    font-family: $omnes-regular;
+    font-size: 1em;
+}
+
+.f-body--2 {
+    font-family: $omnes-regular;
+    font-size: 14px;
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+.f-title-subsection {
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+.f-title-cards-t {
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
+}
+
+.f-body--inputs {
+    font-family: $omnes-regular;
+    font-size: 0.875em;
+}
+
+.f-title--modal {
+    font-size: 24px;
+    line-height: 1;
+}
+
+// font weight
+.f-bold {
+    font-weight: bold;
+}
+
+// Color font
+.f-rdark {
+    color: $rojo-ngr;
+}
+
+.f-melon {
+    color: $melon-ngr;
+}
+
+.f-white {
+    color: white !important;
+}
+
+.f-green {
+    color: $success-verde;
+}
+
+.f-black30 {
+    color: $negro-30
+}
+
+.f-black70 {
+    color: $negro-70
+}
+
+.f-black80 {
+    color: $negro-80
+}
+
+.f-black50 {
+    color: $negro-50
+}
+
+.f_error-message {
+    color: $error-rojo;
+}
+
+// line
+.f_decoration {
+    text-decoration: underline;
+}
+
+// Capitalize
+.font-capital {
+    text-transform: capitalize;
+}
+
+// line-h
+.line-h {
+    line-height: 1.5;
+}
+
+.f-ranking {
+    font-size: 24px;
+}
+
+.t_name {
+    font-size: 16px;
+}
+
+.l_form-message {
+    color: $error-rojo;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.l_form-message-success {
+    color: $success-verde;
+    font-size: 14px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.f_form-subtitle {
+    color: $negro-70;
+    font-size: 20px;
+    width: 290px;
+}
+
+.font-icon-menu {
+    font-size: 25px;
+}
+
+.font-icon-home {
+    font-size: 30px;
+}
+
+.hover-icon {
+    &:hover {
+        color: $rojo-ngr;
+        cursor: pointer;
+    }
+}
+
+.f_heading--cards {
+    font-family: $omnes-semibold;
+    font-size: 1em;
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+        text-align: right;
+    }
+}
+
+.f-xl-taste {
+    font-family: $omnes-semibold;
+    font-size: 48px
+}
+
+.title-construction {
+    font-size: 60px;
+    color: #AC162C;
+    font-family: omnes-semibold;
+    text-align: center;
+    margin: 1em 0 0 0;
+    @media screen and (min-width: 768px) {
+        margin: 0;
+        font-size: 100px;
+    }
+}
+
+.subtitle-construction {
+    font-size: 31px;
+    color: #808080;
+    font-family: omnes-semibold;
+    text-align: center;
+    margin: 0;
+    @media screen and (min-width: 768px) {
+        font-size: 50px;
+        margin: 0 0 0 2em;
+    }
+}

@@ -1,0 +1,126 @@
+.c_form-checkbox input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.c_form-checkbox label {
+    position: relative;
+    cursor: pointer;
+    bottom: 4px;
+    color: $negro-30
+}
+
+.c_form-checkbox label:before {
+    content: '';
+    background-color: transparent;
+    border: 1px solid $negro-30;
+    border-radius: 4px;
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.c_form-checkbox input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    width: 5px;
+    height: 12px;
+    border: solid $success-verde;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+// grey
+.c_checkbox input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.c_checkbox label {
+    position: relative;
+    cursor: pointer;
+    bottom: 4px;
+    color: $negro-70
+}
+
+.c_checkbox label:before {
+    content: '';
+    background-color: transparent;
+    border: 1px solid $negro-70;
+    border-radius: 4px;
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.c_checkbox input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    width: 5px;
+    height: 12px;
+    border: solid $success-verde;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+// cards taste
+.c_checkbox-store input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.c_checkbox-store label {
+    position: relative;
+    cursor: pointer;
+    bottom: 4px;
+}
+
+.c_checkbox-store label:before {
+    content: '';
+    background-color: transparent;
+    border: 1px solid $negro-70;
+    border-radius: 4px;
+    padding: 9px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.c_checkbox-store input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    width: 5px;
+    height: 12px;
+    border: solid $negro-50;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}

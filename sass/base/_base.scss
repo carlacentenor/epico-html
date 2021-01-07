@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; // cambio a revisar
+    font-family: $omnes-regular, Arial, Helvetica, sans-serif !important;
+    background-color: white;
+    color: $negro-70;
+    @media screen and (min-width: 768px) {
+        background-color: #ebebeb;
+    }
+}
+
+.ev_section {
+    margin-bottom: 3em;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
+}
+
+.h100 {
+    height: 100vh;
+}

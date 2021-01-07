@@ -1,0 +1,155 @@
+.c_cards {
+    box-shadow: 0px 3px 8px #CCCCCC;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.c_cards_notifications {
+    max-height: 300px;
+    overflow-y: scroll;
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        max-height: 450px;
+    }
+    @media screen and (min-width: 1024px) and (max-width:1366px) {
+        max-height: 26em;
+    }
+
+    @media screen and (min-width:1367px) {
+        max-height: 30em;
+    }
+}
+
+.c_cards--menu_mobile {
+    border-radius: 3px;
+    box-shadow: 0px 3px 8px #CCCCCC;
+    width: 92%;
+    position: fixed;
+    bottom: 51px;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+            margin: 1em 0;
+            cursor: pointer;
+            &:hover {
+                color: $dark-rojo;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.c_cards--menu {
+    border-radius: 3px;
+    box-shadow: 0px 3px 8px #CCCCCC;
+    width: 220px;
+    position: fixed;
+    right: 15px;
+    z-index: 99;
+    top: 67px;
+    text-align: left;
+    ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+            margin: 1em 0;
+            cursor: pointer;
+            &:hover {
+                color: $dark-rojo;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.c_cards--points {
+    grid-area: points;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h_menu--box-points {
+    border-radius: 3px;
+    background-color: $melon-ngr;
+    color: white;
+    padding: 0 .5em;
+}
+
+.cards_vote {
+    background-color: $rojo-ngr;
+    border-radius: 3px;
+    color: white;
+    font-family: $omnes-semibold;
+    box-shadow: 0px 3px 8px #CCCCCC;
+}
+
+// Efects
+.h-cards-desktop {
+    @media screen and (min-width: 768px) {
+        height: 300px;
+        overflow-y: overlay;
+    }
+}
+
+.h-inher {
+    @media screen and (min-width: 768px) {
+        height: inherit;
+    }
+}
+
+.box-h-max {
+    @media screen and (min-width: 768px) {
+        min-height: 80vh;
+    }
+}
+
+.banner-title--finan {
+    box-shadow: 0px 3px 8px #CCCCCC;
+    background-color: white;
+    border-bottom: 0.75px solid #E5E5E5;
+    padding: 1em;
+    h3 {
+        text-transform: uppercase;
+        margin: 0;
+    }
+    @media screen and (min-width: 768px) {
+        height: 67px;
+        padding: 0 1em;
+    }
+}
+
+.comment {
+    color: $negro-90;
+    font-size: 14px;
+    border-bottom: 1px solid $negro-30;
+    .comment-content {
+        background-color: $negro-2;
+        padding: 1em;
+        p {
+            margin: 0;
+        }
+        textarea {
+            background-color: transparent;
+            border: none;
+            font-family: $omnes-regular;
+            font-size: 14px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .comment-author {
+        p {
+            margin: 5px;
+        }
+        span {
+            font-weight: bold;
+        }
+    }
+}

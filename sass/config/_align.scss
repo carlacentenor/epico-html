@@ -1,0 +1,103 @@
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.loading {
+    width: 30%;
+    margin: 10px auto;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-center--desktop {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+// Hacks
+.a-desktop-title {
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+        text-align: center;
+        font-size: 32px;
+    }
+}
+
+.a-desktop-subtitle {
+    @media screen and (min-width: 768px) {
+        text-align: right;
+    }
+}
+
+.box-photo--team {
+    @media screen and (min-width: 768px) {
+        text-align: center;
+    }
+}
+
+.heigth-comming-soon {
+    height: 200px;
+}
+
+.align-but-add {
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        text-align: right;
+    }
+}
+
+.subtittle-votes {
+    p {
+        @media screen and (min-width: 768px) {
+            text-align: center;
+            font-size: 24px;
+        }
+    }
+}
+
+.center-pad {
+    padding: 0 20%;
+}
+
+.align-responsive {
+    text-align: left;
+    @media screen and (min-width: 768px) {
+        text-align: center;
+    }
+}
+
+.align-box-report-finan,
+.align-box-notifi-finan {
+    margin-top: 1em;
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+        padding-left: 1em;
+    }
+}
+
+.mb-mobile{
+    @media screen and (max-width: 768px) {
+        margin-bottom: 3em;
+    }
+}

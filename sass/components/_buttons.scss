@@ -1,0 +1,227 @@
+.b_button--block {
+    border-radius: 8px;
+    color: white;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    font-family: $omnes-regular;
+    transition: .5s;
+    &:focus {
+        outline: none;
+    }
+}
+
+.b_button--small {
+    height: 24px;
+    width: 24px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.b_button--xl {
+    color: white;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.b_button--g {
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    font-family: $omnes-regular;
+    color: #FFF;
+    &:focus {
+        outline: none;
+    }
+}
+
+// Color Button
+.b_button--color--green {
+    background-color: $success-verde;
+    &:hover {
+        background-color: hsla(171, 77%, 64%, 1);
+    }
+    &:active {
+        background-color: hsla(171, 77%, 32%, 1)
+    }
+}
+
+.b_button--color--melon {
+    background-color: $melon-ngr;
+    &:hover {
+        background-color: hsla(31, 100%, 64%, 1);
+    }
+    &:active {
+        background-color: hsla(31, 100%, 45%, 1);
+    }
+}
+
+.b_button--color--gray {
+    background-color: hsl(0, 0%, 70%);
+    // &:hover {
+    //     background-color: hsl(0, 0%, 70%);
+    // }
+}
+
+.b_button--color--orange {
+    background-color: $naranja-ngr;
+    &:hover {
+        background-color: rgb(253, 115, 108);
+    }
+    &:active {
+        background-color: hsla(3, 100%, 32%, 1)
+    }
+}
+
+.b_button--color--red {
+    background-color: $rojo-ngr;
+    color: white;
+    transition: .5s;
+    &:hover {
+        background-color: rgb(136, 21, 15);
+    }
+}
+
+//Buttons Cancel
+.b_button--cancel--green {
+    border: 2px solid $success-verde;
+    background-color: white;
+    color: $success-verde;
+}
+
+.b_button--cancel--melon {
+    border: 2px solid $melon-ngr;
+    color: $melon-ngr;
+    background-color: white;
+}
+
+.b_button--cancel--orange {
+    border-color: $naranja-ngr;
+    color: $naranja-ngr;
+}
+
+// Menu
+.option--menu {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    &:hover {
+        color: $melon-ngr;
+        border-bottom: 4px solid $melon-ngr;
+    }
+}
+
+.but-option--border-left {
+    border: 1px solid $dark-rojo;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: $dark-rojo;
+    padding: .5em;
+    font-size: 14px;
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 14px;
+    }
+}
+
+.but-option--border-right {
+    border: 1px solid $dark-rojo;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: $dark-rojo;
+    padding: .5em;
+    font-size: 14px;
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 14px;
+    }
+}
+
+.but-option--active {
+    background-color: $dark-rojo;
+    color: white;
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 14px;
+    }
+}
+
+.but-option--cancel {
+    background-color: white;
+    border: 1px solid $dark-rojo;
+    color: $dark-rojo;
+}
+
+.b-exit--modal {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.but-w100 {
+    width: 100%;
+}
+
+.section--complete {
+    background-color: $negro-30;
+    &:hover {
+        background-color: $negro-30;
+    }
+    &:active {
+        background-color: $negro-30;
+    }
+}
+
+// States completes
+.person--complete--taste {
+    background-color: $melon-ngr !important;
+    .f-role {
+        color: white;
+    }
+}
+
+.person--complete--competence {
+    background-color: $success-verde !important;
+    color: white;
+}
+
+// 
+.fix-btn {
+    position: fixed;
+    right: 16px;
+    bottom: 80px;
+}
+
+.active_option--menu {
+    color: $melon-ngr;
+    border-bottom: 3px solid $melon-ngr;
+    padding-bottom: 8.5px;
+}
+
+.icon-btn-search {
+    width: 15px;
+    position: relative;
+    top: 2px;
+    padding-left: 5px;
+}
+
+.mobile-space-download {
+    margin-top: 1em;
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+    }
+}

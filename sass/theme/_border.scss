@@ -1,0 +1,50 @@
+.border-left {
+    border-left: 1px solid $negro-20;
+}
+
+.border-number {
+    border: 1px solid $negro-30;
+    border-radius: 3px;
+    height: 30px;
+    width: 47px;
+    text-align: center;
+    font-size: 14px;
+    color: $negro-30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-table {
+    border: 1px solid $negro-30;
+    max-width: 240px;
+}
+
+.border-top--table {
+    border-top: 1px solid $negro-30;
+}
+
+.border-bottom--table {
+    border-bottom: 1px solid $negro-30;
+}
+
+.border-left--table {
+    border-left: 1px solid $negro-30;
+}
+
+.border-right--table {
+    border-right: 2px solid $negro-30;
+}
+
+.br-radius-3 {
+    border-radius: 3px
+}
+
+.border-right {
+    padding-right: 40px;
+    border-right: 1px solid $negro-30;
+    @media screen and (min-width: 768px) {
+        border-right: none;
+        padding-right: 0;
+    }
+}
